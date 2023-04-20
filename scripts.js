@@ -32,7 +32,7 @@ const extractBiggest = () => {
 		return second.pop();
 	}
 	
-    // otherwise remove the thirds number
+    // (this is like otherwise) says if neither of the above if statements are true, then the third array has the largest number at the end of the array and must be popped
 	return third.pop();
 }
 
