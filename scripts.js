@@ -25,7 +25,7 @@ const result = []
 const extractBiggest = () => {  
     // if the first's last number is bigger than the second's last number then remove the first number
 	if (first[first.length - 1] > second[second.length - 1]) { 
-		return first.pop();
+		return first.pop(); // .pop removes the last element in an array
 	}
     // if the seconds last number is bigger than the thirds last number then remove the seconds number
     if (second[second.length - 1] > third[third.length -1]) {
